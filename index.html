@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>BMI Calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="light-mode">
+  <header>
+    <div class="logo">
+      <h1>BMI</h1>
+    </div>
+    <div class="mode">
+      <label class="switch">
+        <input type="checkbox" id="darkModeToggle">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </header>
+  <div class="container">
+    <div class="main-box">
+    <div class="heading">                        
+      <h2>BMI<br>
+      Calculator</h2>
+    </div>
+    <div class="form">
+      <div class="Weight">
+        <label for="Weight">Weight</label>
+        <input type="text" name="Weight" id="Weight">    
+    </div>
+    <div class="Height">
+        <label for="Height">Height</label>
+        <input type="text" name="Height" id="Height">
+        </div>
+        <div class="BMI">
+          <label for="bmi">BMI</label>
+          <input type="Text" name="bmi" id="bmi">
+          </div>
+        <div class="btn">
+        <button id="mybutton">submit</button><br>
+        <button id="reset">reset</button>
+        </div>
+    </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 BMI Calculator. ALL rights reserved.</p>
+  </footer>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+</html>
